@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #D7F9FA;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mendoza.databases.controllers.CrearController">
+    <children>
+        <Label layoutX="268.0" layoutY="78.0" text="NOMBRE">
+            <font>
+                <Font name="Bell MT Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="260.0" layoutY="145.0" text="APELLIDOS">
+            <font>
+                <Font name="Bell MT Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="279.0" layoutY="200.0" text="EDAD">
+            <font>
+                <Font name="Bell MT Bold" size="14.0" />
+            </font>
+        </Label>
+        <Label layoutX="292.0" layoutY="260.0" text="ID">
+            <font>
+                <Font name="Bell MT Bold" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nomTxt" layoutX="226.0" layoutY="107.0" promptText="NOMBRE" />
+        <TextField fx:id="apellidoTxt" layoutX="226.0" layoutY="163.0" promptText="APELLIDOS" />
+        <TextField fx:id="edadTxt" layoutX="225.0" layoutY="224.0" promptText="EDAD" />
+        <TextField fx:id="idTxt" layoutX="225.0" layoutY="278.0" promptText="ID" />
+        <Button fx:id="agregarBtn" layoutX="251.0" layoutY="329.0" mnemonicParsing="false" onAction="#OnActionAgregarBtn" prefHeight="45.0" prefWidth="98.0" style="-fx-background-color: green;" text="AGREGAR" textFill="WHITE">
+            <font>
+                <Font name="Calibri Bold Italic" size="14.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
